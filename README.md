@@ -8,11 +8,11 @@ Potato is one of the most important crops worldwide, but it is susceptible to va
 
 ## Dataset
 
-The dataset used for training and evaluation consists of images of healthy potato plants and plants infected with various diseases, such as late blight, early blight, and bacterial wilt. The dataset is divided into training, validation, and test sets to ensure proper evaluation of the model's performance.
+The [dataset](https://www.kaggle.com/datasets/swastik2004/potato-leaf-diseases) used for training and evaluation consists of images of healthy potato plants and plants infected with various diseases, such as late blight, early blight, and bacterial wilt. The dataset is divided into training, validation, and test sets to ensure proper evaluation of the model's performance.
 
 ## Model Architecture
 
-The deep learning model employed for disease detection in potato plants is based on convolutional neural networks (CNNs). Specifically, a pretrained CNN model such as ResNet or MobileNet is fine-tuned on the potato disease dataset to leverage transfer learning and improve performance.
+The deep learning model employed for disease detection in potato plants is based on convolutional neural networks (CNNs). Specifically, a pretrained CNN model such as ResNet,vgg-16,vgg-19,inceptionV3 is fine-tuned on the potato disease dataset to leverage transfer learning and improve performance.
 
 ## Training
 
